@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 16px;
+      font-family: 'karla';
+}
+body{
+      background-color: hsl(204, 43%, 93%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 130px;
+}
+main{
+      height: 50vh;
+      width: 50%;
+      background-color: white;
+}
+.gridcontainer{
+      display: grid;
+      grid-template-columns: 1fr, 1fr;
+
+}
+.firstgrid{
+      background-color: white;
+      grid-area: 1/ 1/ 2/ 3;
+      padding: 40px;
+
+}
+.firstgrid h2{
+      color: hsl(179, 62%, 43%);
+      margin-bottom: 20px;
+      
+
+}
+.firstgrid h3{
+      color: hsl(71, 73%, 54%);
+
+}
+.firstgrid p{
+      margin-top: 10px;
+      font-size: 14px;
+      opacity: 0.5;
+
+}
+.secondgrid{
+      background-color: hsl(179, 62%, 43%);
+      padding: 40px;
+
+}
+.secondgrid h4{
+      color: hsl(204, 43%, 93%);
+      font-size: 18px;
+
+}
+.secondgrid h3{
+      font-size: 30px;
+      color: hsl(204, 43%, 93%);
+      margin-top: 10px;
+}
+.secondgrid h3 span {
+      font-size: 14px;
+      text-align: center;
+      justify-content: center;
+      color: hsl(199, 76%, 79%);
+      opacity: 0.5;
+}
+.secondgrid p{
+      font-size: 13px;
+      margin-top: 10px;
+      color: hsl(204, 43%, 93%); 
+}
+.secondgrid button{
+      margin-top: 35px;
+      border: none;
+      width: 100%;
+      padding: 13px 15px;
+      border-radius: 5px;
+      text-align: center;
+      background-color: hsl(71, 73%, 54%);
+      color: hsl(204, 43%, 93%);
+      font-size: 16px;
+      font-weight: 700;
+}
+.lastgrid{
+      background-color:#4abebd;
+      padding: 35px;
+
+}
+.lastgrid h5{
+      margin-bottom: 10px;
+      color: hsl(204, 43%, 93%);
+      font-size: 20px;
+      font-weight: 700;
+}
+.lastgrid p{
+      font-size: 16px;
+      margin-top: 15px;
+      color: hsl(204, 43%, 93%);
+      opacity: 0.5;
+      
+}
+.attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 120px;
+}
+
+.attribution a {
+      color: hsl(228, 45%, 44%);
+}
